@@ -5,7 +5,7 @@
  <meta charset="utf-8">
  <style>
     h1{
-        text-align:center;
+        text-align: center;
       }
       h2{
         text-align: center;
@@ -13,6 +13,7 @@
       td:nth-child(odd){
         background-color: rgb(0, 0, 0);
         color: rgb(255, 255, 255);
+        
       }
       table{
         background-color: rgb(30, 0, 255);
@@ -23,25 +24,37 @@
       }
       th{
         border: 2px solid rgb(128, 0, 0);
-        background-color: rgb(2, 10, 2);
+        background-color: rgb(0, 255, 0);
         color: rgb(0, 255, 4);
       }
       tr th{
-        color: aqua;
+        color: rgb(0, 0, 0);
       }
       td{
         border: 2px solid purple;
         padding-left: 40px;
       }
+      #Friends{
+        text-align: center;
+        font-size: 22px;
+      }
+      #Main{
+        font-style: italic;
+      }
+      #MY_FRIENDS{
+        text-align: center;
+      }
   
       </style>
    </head>
   <body>
-        <h1>
+        <h1 id="Friends">
     Друзі Галуги Володимира Романовича
         </h1>
-    <a href="index.html">Назад на головну</a>
-
+    <a id="Main" href="index.html">Назад на головну</a>
+    <a>
+     <h3 id="MY_FRIENDS">Мої Друзі</h3>
+    </a>
     <table>
         <thead>
             <tr>
