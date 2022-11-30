@@ -1,1 +1,84 @@
+#id_1:visited {
+  color: aqua;
+}
 
+#id_2:visited {
+  color: pink;
+}
+
+#id_3:visited {
+  color: orange;
+}
+
+#id_4:visited {
+  color: green;
+}
+
+#id_1:link {
+  color: black;
+}
+
+#id_2:link {
+  color: red;
+}
+
+#id_3:link {
+  color: purple;
+}
+
+#id_4:link {
+  color: yellow;
+}
+
+h1 {
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  text-align: center;
+
+}
+
+.info {
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px 0;
+}
+
+a {
+  font-size: 34px;
+  padding: 20px 0;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+      width: 25%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .row {
+      flex-wrap: wrap;
+  }
+
+  .col-md-6 {
+      width: 50%;
+  }
+
+  .col-md-12 {
+      width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .row {
+      flex-direction: column;
+  }
+
+  .col-sm-12 {
+      width: 100%;
+  }
+}
