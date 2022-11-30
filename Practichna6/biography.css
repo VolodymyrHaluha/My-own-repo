@@ -1,1 +1,125 @@
+header li {
+    list-style: none;
+}
 
+.Main:visited {
+    background-color: gray;
+    border: 2px solid red;
+    color: blue;
+}
+
+.Main {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: blue;
+    border: 2px solid yellow;
+    color: rgb(255, 255, 255);
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.Main:hover {
+    background-color: magenta;
+    color: black;
+
+}
+
+.Main:active {
+    background-color: yellow;
+    color: black;
+    border: 2px solid gray;
+}
+
+#Базоваінформація {
+    background-color: black;
+    color: white;
+}
+
+#Дитинство {
+    background-color: rgb(148, 255, 255);
+    color: black;
+}
+
+#Шкільніроки {
+    background-color: rgb(152, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+#Позашколою {
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#Університет {
+    background-color: rgb(0, 30, 255);
+    color: rgb(0, 0, 0)
+}
+
+
+.row {
+    width: 100%;
+    display: flex;
+    text-align: center;
+
+}
+.row div{
+    display: flex;
+    align-items: stretch;
+}
+
+.info {
+    margin: 5px;
+    border: 1px solid rgb(0, 123, 0);
+    border-radius: 5px;
+    padding: 20px 0;
+}
+
+a {
+    font-size: 34px;
+    padding: 20px 0;
+}
+
+@media (min-width: 992px) {
+    .row{
+        flex-wrap: wrap;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-4, .col-md-6{
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
