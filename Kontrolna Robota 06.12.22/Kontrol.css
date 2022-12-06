@@ -1,0 +1,64 @@
+.blockOdin {
+    display: flex;
+    background-color: mediumpurple;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+}
+.SpisokPokupok{
+    display: flex;
+    background-color: olivedrab;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+}
+.Tablica{
+    display: flex;
+    background-color: yellow;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+}
+.Zobrashenya{
+    display: flex;
+    background-color: darkblue;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+}
+.blockOdin h3{
+    border: 2px solid black;
+    width: 65px;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+.SpisokPokupok h3{
+    border: 2px solid black;
+    width: 85px;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+.Tablica h3{
+    border: 2px solid black;
+    width: 90px;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+.Zobrashenya h3{
+    border: 2px solid black;
+    width: 120px;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
