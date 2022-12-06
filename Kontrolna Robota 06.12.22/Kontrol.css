@@ -1,33 +1,69 @@
+#id_5{
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#id_5:visited{
+    color: yellow;
+    background-color: #e21aff;
+}
+#id_5:link{
+    background-color: fuchsia;
+    color: blue;
+}
+#id_5:hover{
+    color: #00ff00;
+    background-color: darkblue;
+}
+#id_5:active{
+    background-color: black;
+    color: orange;
+}
 .blockOdin {
+    border: 2px solid black;
+    border-radius: 5px;
     display: flex;
+    width: 100%;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column-reverse;
     background-color: mediumpurple;
+    margin: 5px;
+}
+.blockDwa{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
     align-content: stretch;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-end;
     flex-direction: column-reverse;
-}
-.SpisokPokupok{
-    display: flex;
     background-color: olivedrab;
+    margin: 5px;
+}
+.blockThree{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
     align-content: stretch;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-end;
     flex-direction: column-reverse;
-}
-.Tablica{
-    display: flex;
     background-color: yellow;
-    align-content: stretch;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column-reverse;
+    margin: 5px;
 }
-.Zobrashenya{
+.blockFour{
+    border: 1px solid black;
+    border-radius: 3px;
     display: flex;
+    width: 100%;
     background-color: darkblue;
     align-content: stretch;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-end;
     flex-direction: column-reverse;
 }
 .blockOdin h3{
@@ -36,29 +72,117 @@
     color: black;
     padding: 10px;
     border-radius: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    background-color: olivedrab;
 }
-.SpisokPokupok h3{
+.blockDwa h3{
     border: 2px solid black;
     width: 85px;
     color: black;
     padding: 10px;
     border-radius: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    background-color: mediumpurple;
 }
-.Tablica h3{
+.blockThree h3{
     border: 2px solid black;
     width: 90px;
     color: black;
     padding: 10px;
     border-radius: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    background-color: red;
 }
-.Zobrashenya h3{
+.blockFour h3{
     border: 2px solid black;
     width: 120px;
     color: black;
     padding: 10px;
     border-radius: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    background-color: yellow;
+}
+.Kontrolniy_zaholovok{
+    font-family: 'Zen Dots', cursive;
+}
+.Mainblock h3{
+    font-family: 'La Belle Aurore', cursive;
+}
+.Mainblock p, ul, li, th, td{
+    font-family: 'Kenia', cursive;
+}
+table{
+    border: 2px solid #0a0a10;
+    margin-top: 2px;
+}
+th{
+    background-color: #ffffff;
+    border: 2px solid #180b18;
+}
+td{
+    background-color: #fffffe;
+    border: 2px solid black;
+}
+#id_1{
+    font-size: 120%;
+}
+#id_2{
+    font-size: 120%;
+}
+#id_3{
+    font-size: 120%;
+}
+#id_4{
+    font-size: 120%;
+}
+p{
+    color: #fde359;
+}
+table{
+    color: #48fd02;
+}
+ol{
+    color: black;
+}
+.Kontrolniy_zaholovok{
+    font-style: italic;
+}
+.item{
+    display: flex;
+}
+.Mainblock{
+    width: 100%;
+    display: flex;
+}
+@media (min-width: 1200px){
+    .col-lg-3{
+        width: 25%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .Mainblock{
+        flex-wrap: wrap;
+    }
+    .col-md-4{
+        width: 33.33%;
+    }
+    .col-md-12{
+        width: 100%
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .Mainblock{
+        flex-wrap: wrap;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+}
+@media (max-width: 768px){
+    .Mainblock{
+        flex-direction: column;
+    }
+    .col-xs-12{
+        width: 100%;
+    }
 }
